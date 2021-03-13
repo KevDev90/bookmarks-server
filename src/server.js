@@ -7,8 +7,6 @@ const db = knex({
   connection: DB_URL,
 })
 
-console.log('DB_URL****', DB_URL)
-
 app.set('db', db)
 
 app.listen(PORT, () => {
